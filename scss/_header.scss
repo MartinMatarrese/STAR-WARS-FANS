@@ -1,0 +1,20 @@
+header{
+    margin: 5px;
+    .menu{
+        background-color: $azul;
+        li{
+            display: inline-block;
+            text-align: center;
+            padding: 20px;
+            a{
+                color: $negro;
+                &:hover{
+                    color: $azul;
+                    background-color: $marron;
+                    border-radius: 50%;
+                    transform: scale(1.1, 1.1);
+                }
+            }
+        }
+    }
+}

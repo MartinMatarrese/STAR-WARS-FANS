@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%; 
+}
+h1, h2{
+    color: white;
+    font-family: "Exo", sans-serif;
+}
+img{
+    width: 200px;
+}
+p, .formulario{
+    color: white;
+    font-family: "Roboto Serif", serif;
+}
+.redes{
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.gif{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 5px 0px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+      "gif1 gif2 gif3"
+      "gif4 gif5 gif6";
+}
+.gif1{ 
+    grid-area: gif1;
+    text-align: center;
+}  
+.gif2{ 
+    grid-area: gif2;
+    text-align: center;
+}
+.gif3{ 
+    grid-area: gif3;
+    text-align: center;
+} 
+.gif4{ 
+    grid-area: gif4;
+    text-align: center;
+}
+.gif5{
+    grid-area: gif5;
+    text-align: center; 
+}
+.gif6{
+    grid-area: gif6;
+    text-align: center;
+}
+.peliculas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+      "pelicula1 pelicula2 pelicula3"
+      "pelicula4 pelicula5 pelicula6"
+      "pelicula7 pelicula8 pelicula9"
+      "pelicula10 pelicula11 .";
+}  
+.pelicula1{
+    grid-area: pelicula1;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue;
+}
+.pelicula2{
+    grid-area: pelicula2;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}  
+.pelicula3{ 
+    grid-area: pelicula3;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}  
+.pelicula4{ 
+    grid-area: pelicula4;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}  
+.pelicula5{ 
+    grid-area: pelicula5;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}  
+.pelicula6{ 
+    grid-area: pelicula6;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue;
+}  
+.pelicula7{ 
+    grid-area: pelicula7;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue;
+}  
+.pelicula8{ 
+    grid-area: pelicula8;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}  
+.pelicula9{ 
+    grid-area: pelicula9;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.pelicula10{ 
+    grid-area: pelicula10;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}  
+.pelicula11{ 
+    grid-area: pelicula11;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.series{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+    "serie1 serie2 serie3"
+    "serie4 serie5 serie6"
+    "serie7 serie8 serie9";
+}
+.serie1{
+    grid-area: serie1;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.serie2{
+    grid-area: serie2;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.serie3{
+    grid-area: serie3;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.serie4{
+    grid-area: serie4;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.serie5{
+    grid-area: serie5;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.serie6{
+    grid-area: serie6;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.serie7{
+    grid-area: serie7;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.serie8{
+    grid-area: serie8;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.serie9{
+    grid-area: serie9;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.escenas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+    "escena1 escena2 escena3"
+    "escena4 escena5 escena6";
+}
+.escena1{
+    grid-area: escena1;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.escena2{
+    grid-area: escena2;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.escena3{
+    grid-area: escena3;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.escena4{
+    grid-area: escena4;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.escena5{
+    grid-area: escena5;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.escena6{
+    grid-area: escena6;
+    text-align: center;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
+.formulario{
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-bottom: solid 5px blue;
+    border-left: solid 5px blue; 
+}
