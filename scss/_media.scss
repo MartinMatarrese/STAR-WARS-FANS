@@ -119,6 +119,15 @@
               "serie8" 
               "serie9";
         }
+        .formulario{
+            width: 80vw;
+        }
+        .texto{
+            width: 200px;
+        }
+        .opinion{
+            width: 200px;
+        }
     }
 }
 @media screen and (max-width: 320px){
@@ -142,16 +151,11 @@
             font-size: 15px;
         }
     }        
-    h3{
-        font-size: 15px;
-    }
+    
     footer{
         width: 100vw;
     }
-    .texto{
-        width: 200px;
-    }
-    .opinion{
-        width: 200px;
+    h3{
+        font-size: 15px;
     }
 }

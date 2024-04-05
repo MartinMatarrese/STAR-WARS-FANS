@@ -438,6 +438,15 @@ footer a {
     grid-auto-flow: row dense;
     grid-template-areas: "serie1" "serie2" "serie3" "serie4" "serie5" "serie6" "serie7" "serie8" "serie9";
   }
+  main .formulario {
+    width: 80vw;
+  }
+  main .texto {
+    width: 200px;
+  }
+  main .opinion {
+    width: 200px;
+  }
 }
 @media screen and (max-width: 320px) {
   main .gif {
@@ -458,17 +467,11 @@ footer a {
   main h2 {
     font-size: 15px;
   }
-  h3 {
-    font-size: 15px;
-  }
   footer {
     width: 100vw;
   }
-  .texto {
-    width: 200px;
-  }
-  .opinion {
-    width: 200px;
+  h3 {
+    font-size: 15px;
   }
 }
 
